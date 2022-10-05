@@ -20,7 +20,7 @@ int main()
     }
     else if (x<5)
     {
-        y = 2* abs(x + 6) - x*x;
+        y = 2* std :: abs(x + 6) - x*x;
         std :: cout << "y = " << y << std :: endl;
     }
 
