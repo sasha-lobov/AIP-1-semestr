@@ -10,7 +10,7 @@ int main()
     std :: cin >> x;
     std :: cout << "y = ";
     std :: cin >> y;
-    float R = std :: sqrt(x*x+y*y); // действующий радиус
+    float R = sqrt(x*x+y*y); // действующий радиус
     bool area1 = (x>=0); // зона 1
     bool area2 = (y>=(-x)); // зона 2
     if((R < r) && area1 || (R < r) && area2)
