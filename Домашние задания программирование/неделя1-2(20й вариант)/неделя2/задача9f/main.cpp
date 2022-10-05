@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-#include <string>
+
 //конвертер бар, паскаль, фунт на квадратный дюйм
 int main()
 {
