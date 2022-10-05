@@ -6,7 +6,7 @@
 
 int main()
 {
-    float a,b,c;
+   float a,b,c;
    std :: cin >> a >> b;
    std :: cout << "a = " << a << std :: endl;
    std :: cout << "b = " << b << std :: endl;
