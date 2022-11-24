@@ -7,7 +7,8 @@ int main()
     std :: array <int,5> arr_cont;
     int max_weight=0;
     int max_cont=0;
-
+    int counter = 0;
+    
     for(int  i = 0; i < 5 ; i++)
     {
         std :: cout << "people" << i << " weight: ";
@@ -44,12 +45,15 @@ int main()
     {
         if(arr_weight[i] == max_weight and arr_cont[i] == max_cont)
         {
-            std :: cout << "It's people " << i << std :: endl;
+            counter++;
         }
 
     }
-
-
+    
+    if(counter == 1)
+        {
+            std :: cout << "There is such a person" << std :: endl;
+        }
 
     return 0;
 }
