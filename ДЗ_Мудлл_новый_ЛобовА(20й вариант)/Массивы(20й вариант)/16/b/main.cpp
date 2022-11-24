@@ -7,6 +7,7 @@ int main()
     std :: array <int,5> arr_cont; // количество багажа
     int min_weight=6;
     int max_cont=0;
+    int counter = 0;
 
     for(int  i = 0; i < 5 ; i++) // заполняем массив по весу
     {
@@ -44,10 +45,15 @@ int main()
     {
         if(arr_weight[i] == min_weight and arr_cont[i] == max_cont)
         {
-            std :: cout << "It's people " << i << std :: endl;
+            counter++;
         }
 
     }
+    
+     if(counter == 1)
+        {
+            std :: cout << "There is such a person" << std :: endl;
+        }
 
 
 
